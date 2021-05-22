@@ -5,15 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erode Pets</title>
+    <meta name="theme-color" content="#fbe779">
+    <meta name="description" content="Discover the best and most affordable pet supplies available online at the Erode Pets! Find Original Breed Pets(Dogs, Cats, Birds, & more.,), Pet Accessories, Toys, and Grooming Products for a
+    healthier and happier pet. FREE DELIVERY in the entire state of Tamil Nadu.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <title>Erode Pets - Contact</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="assets/logo.png" width="60px" height="60px"
-                    class="img-fluid"></a>
+        <nav class="navbar navbar-expand-lg  bg-white navbar-light fixed-top">
+            <a class="navbar-brand" href="#"><img src="assets/logo.png" width="80px" height="80px" class="img-fluid"
+                    alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,7 +27,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -40,11 +46,58 @@
             </div>
         </nav>
     </header>
-    <main>
-
+    <main class="container mt-5 pt-5 mb-4">
+        <div class="row">
+            <div class="col-md-4 offset-md-3">
+                <h2 class="text-center text-warning">Contact</h2>
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control rounded-0" id="name" type="text" name="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control rounded-0" id="email" type="email" name="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control rounded-0" id="message" name="Message"></textarea>
+                    </div>
+                    <input class="btn btn-warning rounded-0" type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
     </main>
-    <footer>
-
+    <footer class="container-fluid">
+        <div class="row bg-dark text-light">
+            <div class="col-md-6 text-center">
+                <ul class="list-unstyled">
+                    <h6>Contact</h6>
+                    <li>Erode Pets | Online Pet Supplier </li>
+                    <li><a href="https://erodepets.business.site/" class="text-white">Visit Website</a></li>
+                    <li><a href="tel:917010899338" class="text-white">+91 7010899338</a></li>
+                    <li>Erode, Tamil Nadu, India</li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center">
+                <h6>Quick Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-white">Home</a></li>
+                    <li><a href="about.html" class="text-white">About</a></li>
+                    <li><a href="services.html" class="text-white">Services</a></li>
+                    <li><a href="gallery.html" class="text-white">Gallery</a></li>
+                    <li><a href="contact.html" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <span class="col text-center bg-secondary text-light" id="copyright">&copy;<a href="index.html"
+                    class="text-light">Erode
+                    Pets</a>
+            </span>
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
