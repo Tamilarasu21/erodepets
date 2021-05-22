@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin-top: 60px !important;
+}
+.navbar-light {
+  border-bottom: 1px solid black !important;
+}
