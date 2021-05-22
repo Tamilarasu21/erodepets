@@ -2,5 +2,13 @@
     "short_name": "Erode Pets",
     "name": "Erode Pets",
     "start_url":".",
-    "theme_color":"#F9F871"
+    "theme_color":"#fbe779",
+    "icons":[
+        {
+            "src":"assets/logo.png",
+            "sizes":"196x196",
+            "type":"image/png",
+            "purpose":"any maskable"
+        }
+    ]
   }
