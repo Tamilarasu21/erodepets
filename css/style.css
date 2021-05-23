@@ -26,7 +26,7 @@ body {
   }
   .navbar-collapse.show {
     left: 0;
-    transition: left 500ms ease-in-out;
+    transition: left 300ms ease-in-out;
   }
   /* .navbar-toggler.collapsed ~ .navbar-collapse {
       transition: left 500ms ease-in-out;
