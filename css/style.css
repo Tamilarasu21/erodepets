@@ -19,6 +19,8 @@ body {
     width: 50%;
     height: 100%;
     background: white;
+    border-right-color: gray !important;
+    border-right-width: 3px !important;
   }
   .navbar-collapse.collapsing {
     left: -50%;
