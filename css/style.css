@@ -5,9 +5,41 @@
 body {
   overflow-x: hidden;
 }
-/* .navbar-light {
-  border-bottom: 1px solid black !important;
-} */
+.text-yellow {
+  color: #fbe779;
+}
+.btn-yellow {
+  background-color: #fbe779;
+}
+.text-sb {
+  color: #75cedf;
+}
+.btn-sb {
+  background-color: #75cedf;
+  color: white;
+}
+.btn-sb:hover {
+  color: #75cedf;
+  background: white;
+  border: 0.5px solid #75cedf;
+}
+@media (max-width: 992px) {
+  .show {
+    border-left: 3px solid black !important;
+  }
+}
+@media (max-width: 664px) {
+  .brand-logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .brand-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
 @media (max-width: 992px) {
   .navbar-collapse {
     position: fixed;
@@ -19,8 +51,7 @@ body {
     width: 50%;
     height: 100%;
     background: white;
-    border-right-color: gray !important;
-    border-right-width: 3px !important;
+    border-right: 3px solid rgb(236, 235, 235) !important;
   }
   .navbar-collapse.collapsing {
     left: -50%;
@@ -30,9 +61,6 @@ body {
     left: 0;
     transition: left 300ms ease-in-out;
   }
-  /* .navbar-toggler.collapsed ~ .navbar-collapse {
-      transition: left 500ms ease-in-out;
-  } */
 }
 .navbar-light {
   z-index: 999 !important;
