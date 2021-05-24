@@ -124,3 +124,17 @@ body {
 .banner .border-3 {
   border-width: 4px #fbe779 !important;
 }
+.serv-img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+@media (max-width: 720px) {
+  .serv-img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: block;
+  }
+}
