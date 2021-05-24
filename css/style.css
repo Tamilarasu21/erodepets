@@ -130,7 +130,7 @@ body {
   margin: auto;
   display: block;
 }
-@media (max-width: 720px) {
+@media (min-device-width:576px) and (max-device-width: 720px) {
   .serv-img {
     width: 80px;
     height: 80px;
