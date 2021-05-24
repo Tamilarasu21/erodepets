@@ -5,6 +5,7 @@
 body {
   overflow-x: hidden;
 }
+/* custom colors */
 .text-yellow {
   color: #fbe779;
 }
@@ -23,21 +24,17 @@ body {
   background: white;
   border: 0.5px solid #75cedf;
 }
-@media (max-width: 992px) {
-  .show {
-    border-left: 3px solid black !important;
-  }
-}
-@media (max-width: 664px) {
+/* logo size change */
+@media (max-width: 540px) {
   .brand-logo {
     width: 30px;
     height: 30px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 540px) {
   .brand-logo {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 }
 @media (max-width: 992px) {
@@ -59,7 +56,8 @@ body {
   }
   .navbar-collapse.show {
     left: 0;
-    transition: left 300ms ease-in-out;
+    transition: left 0.3s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
   }
 }
 .navbar-light {
@@ -77,6 +75,7 @@ body {
   width: 25px;
   margin-top: 5px;
   margin-bottom: 5px;
+  border-radius: 1.5px;
   position: relative;
   left: 0;
   opacity: 1;
@@ -107,22 +106,10 @@ body {
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
   transform: translate(15%, 33%) rotate(-45deg);
 }
-.bx-1 {
-  margin-top: 70px;
-}
-.bx-2 {
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
-.bx-3 {
-  margin-bottom: 70px;
-}
-.bannerx {
+/* home page image */
+.bx {
   width: 400px;
   height: 400px;
-}
-.banner .border-3 {
-  border-width: 4px #fbe779 !important;
 }
 .serv-img {
   width: 100px;
@@ -130,7 +117,7 @@ body {
   margin: auto;
   display: block;
 }
-@media (min-device-width:576px) and (max-device-width: 720px) {
+@media (min-device-width: 576px) and (max-device-width: 720px) {
   .serv-img {
     width: 80px;
     height: 80px;
