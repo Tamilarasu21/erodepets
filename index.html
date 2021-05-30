@@ -14,71 +14,144 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-light" role="navigation">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
             <div class="container">
-                <button type="button" class="navbar-toggler collapsed mr-auto rounded-0 border-0" data-toggle="collapse"
-                    data-target="#navbarCollapse" aria-label="Navbar Toggler">
+                <button class="navbar-toggler collapsed mr-auto rounded-0 border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span> </span>
                     <span> </span>
                     <span> </span>
                 </button>
                 <a href="#" class="navbar-brand ml-auto"><img src="assets/logo.svg" alt="erode pets logo"
                         class="brand-logo"></a>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="collapse navbar-collapse px-3" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="about.html" class="nav-link">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="services.html" class="nav-link">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="gallery.html" class="nav-link">Gallery</a>
+                            <a class="nav-link" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="container mt-5 pt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-4 mt-5 px-2 pt-4">
-                <img src="assets/cat.jpg" alt="Cat" class="img-fluid border border-warning border-5 bx">
-            </div>
-            <div class="col-md-4 mt-3 px-2 pt-3">
-                <img src="assets/dog1.jpg" alt="Dog 1" class="img-fluid border border-warning border-5 bx">
-            </div>
-            <div class="col-md-4 mt-1 px-2">
-                <img src="assets/dog2.jpg" alt="Dog 2" class="img-fluid border border-warning border-5 bx">
-            </div>
-        </div>
+    <main>
+        <section id="home" class="pt-5">
+            <div class="container mt-5 pt-5">
+                <div class="row">
+                    <div class="col">
 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center text-sb">About</h2>
+                        <!-- <img src="assets/dog4.jpg" alt="dog image" class="img-fluid abt-img"> -->
+                        <p>Discover the best and most affordable pet supplies available online at the Erode Pets!</p>
+
+                        <p>Find Original Breed Pets(Dogs, Cats, Birds, & more.,), Pet Accessories, Toys, and Grooming
+                            Products
+                            for a
+                            healthier and happier pet. FREE DELIVERY in the entire state of Tamil Nadu.</p>
+
+                        <p><i>"Our goal is to become the easiest and fastest online shopping resource for customers and
+                                provide
+                                each pet
+                                owner
+                                with the best value for their money."</i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container mt-5 pt-5">
+                <h2 class="text-center text-sb">Our Services</h2>
+                <div class="row text-center">
+                    <div class="col-lg-3 col-6 col-sm-6 col-md-6">
+                        <a href="#" class="btn"><img src="assets/dog-playing.png" alt="dog playing"
+                                class="img-fluid serv-img">
+                            <p class="text-center font-weight-bold text-sb">Dog Playing</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 col-sm-6 col-md-6">
+                        <a href="#" class="btn"><img src="assets/washing-the-dog.png" alt="dog playing"
+                                class="img-fluid serv-img">
+                            <p class="text-center font-weight-bold text-sb">Dog Grooming</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 col-sm-6 col-md-6">
+                        <a href="#" class="btn"><img src="assets/feeding-the-dog.png" alt="dog playing"
+                                class="img-fluid serv-img">
+                            <p class="text-center font-weight-bold text-sb">Dog Feeding</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 col-sm-6 col-md-6">
+                        <a href="#" class="btn"><img src="assets/dog-with-first-aid-kit-bag.png" alt="dog playing"
+                                class="img-fluid serv-img">
+                            <p class="text-center font-weight-bold text-sb">Dog Treatment</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="container mt-5 pt-5">
+                <h3>Feedbacks</h3>
+                
+            </div>
+        </section>
+        <section id="contact" class="mt-3">
+            <div class="container mt-5 pt-5 mb-2">
+                <div class="row">
+                    <div class="col-md-4 offset-md-3">
+                        <h2 class="text-center text-sb">Contact</h2>
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input class="form-control rounded-0" id="name" type="text" name="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control rounded-0" id="email" type="email" name="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control rounded-0" id="message" name="Message"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <input class="btn btn-sb rounded-0" type="submit" value="Submit" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container-fluid">
             <div class="row bg-dark text-white">
-                <div class="col-md-6 text-center">
-                    <h6 class="text-yellow">Contact</h6>
-                    <ul class="list-unstyled">
-                        <li>Erode Pets | Online Pet Supplier </li>
-                        <li><a href="https://erodepets.business.site/" class="text-white" role="button">Visit
-                                Website</a>
-                        </li>
-                        <li><a href="tel:917010899338" class="text-white" role="button">+91 7010899338</a></li>
-                        <li>Erode, Tamil Nadu, India</li>
-                    </ul>
-                </div>
                 <div class="col-md-6 text-center">
                     <h6 class="text-yellow">Quick Links</h6>
                     <ul class="list-unstyled">
@@ -89,14 +162,26 @@
                         <li><a href="contact.html" class="text-white" role="button">Contact</a></li>
                     </ul>
                 </div>
+                <div class="col-md-6 text-left">
+                    <h6 class="text-yellow">Contact</h6>
+                    <ul class="list-unstyled">
+                        <li>Erode Pets | Online Pet Supplier </li>
+                        <li><i class="fa fa-external-link-square"></i> <a href="https://erodepets.business.site/"
+                                class="text-white" role="button">https://erodepets.business.site/</a>
+                        </li>
+                        <li><i class="fa fa-phone"></i> <a href="tel:917010899338" class="text-white" role="button">+91
+                                7010899338</a></li>
+                        <li><i class="fa fa-map-marker"></i> Erode, Tamil Nadu, India</li>
+                    </ul>
+                </div>
             </div>
             <div class="row">
                 <span class="col text-center bg-secondary text-white" id="copyright">&copy;<a href="index.html"
                         class="text-white">Erode
                         Pets</a>
+                    <span></span>
                 </span>
                 <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-                </span>
             </div>
         </div>
     </footer>

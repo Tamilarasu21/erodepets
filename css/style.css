@@ -5,6 +5,9 @@
 body {
   overflow-x: hidden;
 }
+.section {
+  margin-top: 100px;
+}
 /* custom colors */
 .text-yellow {
   color: #fbe779;
@@ -27,39 +30,47 @@ body {
 /* logo size change */
 @media (max-width: 540px) {
   .brand-logo {
-    width: 30px;
-    height: 30px;
-  }
-}
-@media (min-width: 540px) {
-  .brand-logo {
     width: 50px;
     height: 50px;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 540px) {
+  .brand-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* push from left menu */
+@media (max-width: 768px) {
   .navbar-collapse {
     position: fixed;
-    top: 58px;
+    top: 54px;
     left: 0;
+    width: 40%;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    width: 50%;
     height: 100%;
-    background: white;
-    border-right: 3px solid rgb(236, 235, 235) !important;
+    background-color: white;
   }
+
   .navbar-collapse.collapsing {
-    left: -50%;
-    transition: height 0s ease;
+    height: 100%;
+    left: -75%;
+    transition: height 0.2s ease;
   }
+
   .navbar-collapse.show {
+    height: 100%;
     left: 0;
-    transition: left 0.3s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 300ms ease-in;
   }
 }
+
 .navbar-light {
   z-index: 999 !important;
 }
@@ -75,7 +86,6 @@ body {
   width: 25px;
   margin-top: 5px;
   margin-bottom: 5px;
-  border-radius: 1.5px;
   position: relative;
   left: 0;
   opacity: 1;
@@ -124,4 +134,8 @@ body {
     margin: auto;
     display: block;
   }
+}
+.abt-img {
+  height: 500px;
+  width: 100%;
 }

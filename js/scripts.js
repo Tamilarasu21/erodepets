@@ -9,3 +9,9 @@ $(".nav-item").on("click", function (e) {
 $(".navbar-nav>li>a").on("click", function () {
   $(".navbar-collapse").collapse("hide");
 });
+
+(function () {
+  $("#msbo").on("click", function () {
+    $("body").toggleClass("msb-x");
+  });
+})();
