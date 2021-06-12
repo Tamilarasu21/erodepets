@@ -6,12 +6,6 @@ $(".nav-item").on("click", function (e) {
   $(this).addClass("active");
 });
 // close left slide menu after clicking nav-item
-$(".navbar-nav>li>a").on("click", function () {
+$(".navbar-nav>.nav-item>.nav-link").on("click", function () {
   $(".navbar-collapse").collapse("hide");
 });
-
-(function () {
-  $("#msbo").on("click", function () {
-    $("body").toggleClass("msb-x");
-  });
-})();

@@ -38,6 +38,12 @@ body {
     height: 60px;
   }
 }
+@media (min-width: 992px) {
+  .embed-responsive{
+    margin-bottom:-190px;
+    padding:0px;
+  }
+}
 /* push from left menu */
 @media (max-width: 768px) {
   .navbar-collapse {
@@ -82,8 +88,8 @@ body {
   margin-right: 20px;
   margin-left: 20px;
 }
-@media (max-width: 540px){
-  .nav-small{
+@media (max-width: 540px) {
+  .nav-small {
     font-size: smaller;
   }
 }
@@ -174,4 +180,20 @@ body {
 .fa-star-o {
   color: gold;
   padding-right: 3px;
+}
+/* carousel */
+.carousel-control-prev-icon {
+  width:25px;
+  height:25px;
+  margin-left:-190px;
+  border-radius: 50%;
+  background-color: black !important;
+}
+
+.carousel-control-next-icon {
+  width:25px;
+  height:25px;
+  margin-right:-190px;
+  border-radius: 50%;
+  background-color: black !important;
 }
