@@ -82,6 +82,11 @@ body {
   margin-right: 20px;
   margin-left: 20px;
 }
+@media (max-width: 540px){
+  .nav-small{
+    font-size: smaller;
+  }
+}
 /* navbar change to X on collapse */
 .navbar-toggler span {
   display: block;
